@@ -1,0 +1,32 @@
+.border{
+    border-width: 5px;
+    border-style: groove;
+    border-color: red;
+}
+.outline{
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blue;
+    outline-offset: 5px;
+    border: 5px groove red;
+}
+.padding{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    border: 5px dotted red;
+}
+.margin{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 5px dashed red;
+    padding: 10px 20px 25px 30px;
+}
+.center{
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid black;
+}
